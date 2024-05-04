@@ -322,7 +322,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    outHtml = this.postrender(outHtml);
 
 	    this.$emit('rendered', outHtml);
-	    return createElement('div', {
+	    return h('div', {
 	      domProps: {
 	        innerHTML: outHtml
 	      }
